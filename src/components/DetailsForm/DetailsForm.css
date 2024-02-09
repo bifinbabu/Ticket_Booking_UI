@@ -1,0 +1,36 @@
+.detailsFormContainer {
+  margin-top: 64px;
+}
+
+.formHeader {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.formDescription {
+  font-size: 16px;
+  color: #60646c;
+}
+
+.inputField {
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.inputField::placeholder {
+  color: grey; /* Placeholder text color */
+  font-family: Open Sans; /* Placeholder font family */
+  font-size: 1em; /* Placeholder font size */
+}
+
+.inputField {
+  width: 100%;
+  /* border-radius: 15px; */
+  /* border-color: #60646c; */
+  /* border-color: red; */
+  border: 1px solid #b9bbc6;
+  padding: 15px;
+  color: black; /* Input text color */
+}
