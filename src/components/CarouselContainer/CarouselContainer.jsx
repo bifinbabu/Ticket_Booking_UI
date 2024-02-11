@@ -5,10 +5,10 @@ import RightArrow from "../SVGIcons/rightArrow";
 import BestSeller from "../SVGIcons/bestSeller";
 
 const images = [
-  "/images/img1.jpg",
-  "/images/img2.jpg",
-  "/images/img3.jpg",
-  "/images/img4.jpg",
+  "/images/img11.jpg",
+  "/images/img22.jpg",
+  "/images/img33.jpg",
+  "/images/img44.jpg",
 ];
 
 const Carousel = () => {

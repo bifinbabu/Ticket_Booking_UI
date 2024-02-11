@@ -3,6 +3,7 @@ import "./App.css";
 import HeaderBannerSmall from "./components/HeaderBannerSmall/HeaderBannerSmall";
 import Header from "./components/Header/Header";
 import PageBody from "./components/PageBody/PageBody";
+import Footer from "./components/Footer/Footer";
 // import PaymentForm from "./components/PaymentForm/PaymentForm";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <HeaderBannerSmall />
       <PageBody />
+      <Footer />
       {/* <PaymentForm /> */}
     </>
   );

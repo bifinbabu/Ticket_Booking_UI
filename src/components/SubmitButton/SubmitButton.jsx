@@ -2,10 +2,12 @@ import React from "react";
 import "./SubmitButton.css"; // Make sure to create this CSS file in the same directory
 import LockIcon from "../SVGIcons/lockIcon";
 
-const SubmitButton = () => {
+const SubmitButton = (props) => {
   return (
     // <div className="buttonContainer">
-    <button className="submitButton">
+    <button
+      className={props?.fullWidth ? "submitButtonFullWidth" : "submitButton"}
+    >
       {/* Example SVG: A simple arrow. Replace this SVG with your desired SVG icon */}
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"

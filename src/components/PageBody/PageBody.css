@@ -59,6 +59,78 @@
   color: #60646c;
 }
 
+.carouselBody {
+  padding: 20px;
+  border: 1px solid #7e808a;
+  border-radius: 20px;
+}
+.carouselBodyText {
+  display: flex;
+  flex-direction: row;
+}
+.ratingText {
+  font-size: 14px;
+  padding-left: 5px;
+}
+.star {
+  margin-top: 13px;
+}
+.carouselDescription {
+  margin-top: -20px;
+}
+.carouselDescription p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.specificationTextContainer {
+  display: flex;
+  flex-direction: row;
+}
+.specificationText {
+  margin-top: -15px;
+  margin-left: 8px;
+}
+.specificationMainText {
+  font-size: 14px;
+  font-weight: 500;
+}
+.specificationSubText {
+  font-size: 12px;
+  color: #60646c;
+  margin-top: -10px;
+}
+.viewPaymentSummaryContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+/* .60646C  */
+.viewPaymentSummaryText {
+  color: #60646c;
+  font-size: 14px;
+  text-decoration: underline;
+}
+.plusIcon {
+  color: #60646c;
+  font-size: 14px;
+}
+.dottedLine {
+  height: 0; /* The height of the div, can be 0 since we're using border to show the line */
+  border-top: 1px dotted grey; /* Creates a dotted line in grey color */
+  width: 100%;
+}
+.straightLineDiv {
+  margin-top: 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #dddd;
+}
+.paymentBoxFirstRowCarousel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   .confirmTextMobile {
     display: block;
@@ -81,6 +153,10 @@
     width: 100%;
     margin-left: 0;
   }
+  /* .carouselContainer {
+    border: 1px solid #7e808a;
+    border-radius: 15px;
+  } */
   .carouselInnerContainer {
     margin-top: 20px;
   }
