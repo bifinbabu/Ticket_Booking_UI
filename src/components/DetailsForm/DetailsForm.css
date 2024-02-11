@@ -12,6 +12,16 @@
   font-size: 16px;
   color: #60646c;
 }
+.firstRowForm {
+  display: flex;
+  justify-content: center;
+}
+
+.firstRowForm1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
 
 .inputField {
   width: 100%;
@@ -53,4 +63,25 @@
 }
 .twoItemsMain {
   width: 44.5%;
+}
+
+/* Existing styles */
+/* Add your existing CSS here */
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  /* or another breakpoint like 600px */
+  .twoItems,
+  .twoItemsMain {
+    width: 88%; /* Make input fields take full width */
+  }
+
+  .bottomRow {
+    flex-direction: column; /* Stack the input fields vertically */
+  }
+
+  /* Adjust the margin for stacked fields if necessary */
+  .bottomRow .inputField:not(:first-child) {
+    margin-top: 15px; /* Add margin-top to every inputField except the first */
+  }
 }

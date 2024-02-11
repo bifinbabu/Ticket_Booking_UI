@@ -1,0 +1,121 @@
+.paymentFormContainerComingSoon {
+  margin-top: 20px;
+  background-color: #f9f9fb;
+}
+
+.formHeader {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.formDescription {
+  font-size: 16px;
+  color: #60646c;
+}
+
+.paymentBoxComing {
+  border: 2px solid #d3d4db;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.paymentBoxFirstRowContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.paymentBoxFirstRow {
+  display: flex;
+  flex-direction: row;
+}
+.paymentBoxFirstRow p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.secondRowContainer {
+  margin-top: 20px;
+}
+.secondRowContainer > :nth-child(n + 2) {
+  margin-left: 10px;
+}
+
+.straightLine {
+  margin-top: 40px;
+  height: 1px; /* Set the height to a very small value */
+  width: 100%; /* Set the width as needed */
+  background-color: #dddd; /* Set the background color to grey */
+}
+
+.totalPayableDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+/* youSaveContainer" style={{ borderRadius: "15px", backgroundColor: "green" }} */
+.youSaveContainer {
+  border-radius: 15px;
+  background-color: #299764;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* background-color: #e9f9ee; */
+}
+
+.youSaveContainer p {
+  margin-top: 0px;
+  margin-bottom: 0;
+  color: #e9f9ee;
+  font-size: 12px;
+}
+
+.piggyBank {
+  margin-top: 2px;
+  margin-right: 5px;
+  vertical-align: bottom; /* Adjusts alignment to the bottom, which can visually appear as a slight move down */
+  display: inline-block; /* Needed for transform to work on inline elements like span */
+  transform: translateY(2px);
+}
+
+.infoText {
+  font-size: 12px;
+  color: #60646c;
+  text-decoration: underline;
+  padding-right: 10px;
+}
+.infoTerms {
+  font-size: 12px;
+  color: #60646c;
+  /* text-decoration: underline; */
+  padding-right: 10px;
+  font-weight: 100;
+}
+
+.infoTermsSpan {
+  color: #3a5ccc;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.infoContainer {
+  margin-top: 10px;
+}
+.infoContainerTerms {
+  margin-top: 30px;
+}
+
+.infoIcon {
+  margin-top: -3px;
+  margin-right: 5px;
+  vertical-align: bottom; /* Adjusts alignment to the bottom, which can visually appear as a slight move down */
+  display: inline-block; /* Needed for transform to work on inline elements like span */
+  transform: translateY(2px);
+}
+
+.submitButtonContainer {
+  width: 200px;
+  margin-top: 30px;
+}

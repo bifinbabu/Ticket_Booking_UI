@@ -11,51 +11,35 @@ const DetailsForm = () => {
           friend? Add their details.
         </p>
         <div className="formFieldsContainer">
-          <div
-            className="firstRowForm"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
+          <div className="firstRowForm">
             <input
               className="inputField"
               type="text"
               placeholder="Full name *"
             />
           </div>
-          {/* <div className="formFieldsContainer bottomRow">
-            <select className="inputField twoItems selectField">
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-              <option value="option4">Option 4</option>
-            </select>
-            <input
-              className="inputField twoItems"
-              type="text"
-              placeholder="Full name *"
-            />
-          </div> */}
           <div className="formFieldsContainer bottomRow">
             <input
               className="inputField twoItemsMain"
               type="text"
-              placeholder="Full name *"
+              placeholder="Country code *"
             />
             <input
               className="inputField twoItemsMain"
               type="text"
-              placeholder="Full name *"
+              placeholder="Phone number *"
             />
           </div>
           <div className="formFieldsContainer bottomRow">
             <input
               className="inputField twoItemsMain"
               type="text"
-              placeholder="Full name *"
+              placeholder="Email *"
             />
             <input
               className="inputField twoItemsMain"
               type="text"
-              placeholder="Full name *"
+              placeholder="Confirm email *"
             />
           </div>
         </div>
@@ -67,43 +51,23 @@ const DetailsForm = () => {
           We need a few more details to complete your reservation.
         </p>
         <div className="formFieldsContainer">
-          <div
-            className="firstRowForm"
-            style={{ display: "flex", justifyContent: "center" }}
-          >
+          <div className="formFieldsContainer bottomRow">
+            <input
+              className="inputField twoItemsMain"
+              type="text"
+              placeholder="Input label *"
+            />
+            <input
+              className="inputField twoItemsMain"
+              type="text"
+              placeholder="Select *"
+            />
+          </div>
+          <div className="firstRowForm1">
             <input
               className="inputField"
               type="text"
-              placeholder="Full name *"
-            />
-          </div>
-          <div className="formFieldsContainer bottomRow">
-            {/* <select className="inputField twoItems selectField">
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              <option value="option3">Option 3</option>
-            </select> */}
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Full name *"
-            />
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Full name *"
-            />
-          </div>
-          <div className="formFieldsContainer bottomRow">
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Full name *"
-            />
-            <input
-              className="inputField twoItemsMain"
-              type="text"
-              placeholder="Full name *"
+              placeholder="Multiselect *"
             />
           </div>
         </div>
