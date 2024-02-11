@@ -24,6 +24,11 @@
   font-family: Open Sans; /* Placeholder font family */
   font-size: 1em; /* Placeholder font size */
 }
+.selectField {
+  color: grey; /* Placeholder text color */
+  font-family: Open Sans; /* Placeholder font family */
+  font-size: 13px; /* Placeholder font size */
+}
 
 .inputField {
   width: 100%;
@@ -33,4 +38,19 @@
   border: 1px solid #b9bbc6;
   padding: 15px;
   color: black; /* Input text color */
+}
+
+.bottomRow {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 10px; */
+}
+
+.twoItems {
+  width: 46.5%;
+}
+.twoItemsMain {
+  width: 44.5%;
 }

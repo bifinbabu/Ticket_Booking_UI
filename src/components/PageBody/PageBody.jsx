@@ -2,6 +2,8 @@ import React from "react";
 import "./PageBody.css";
 import InfoIcon from "../SVGIcons/infoIcon";
 import DetailsForm from "../DetailsForm/DetailsForm";
+import PaymentForm from "../PaymentForm/PaymentForm";
+import Carousel from "../CarouselContainer/CarouselContainer";
 
 const PageBody = () => {
   return (
@@ -21,11 +23,14 @@ const PageBody = () => {
           </div>
         </div>
         <DetailsForm />
+        <PaymentForm />
       </div>
       {/*  */}
       <div className="carouselContainer">
         <span className="confirmTextMobile">Confirm & pay</span>
-        <div className="carouselInnerContainer">wgf</div>
+        <div className="carouselInnerContainer">
+          <Carousel />
+        </div>
       </div>
       {/*  */}
     </div>
